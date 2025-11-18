@@ -1,4 +1,4 @@
-26315147723570060
+26316911176227315
 AdafruitBreakouts
 BMP390_Breakout_Footprint
 
@@ -59730,6 +59730,13 @@ DualLED0606
 0
 4
 4
+FCU2025Lib
+Horizontal2.5mmWago3pin
+
+
+0
+3
+3
 FCU2025Lib
 IMU Indicator
 
