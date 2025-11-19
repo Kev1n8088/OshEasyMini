@@ -10508,6 +10508,12 @@
 		(uuid "ce38caa4-bf1d-4ece-9cdb-1daf1b7b6275")
 	)
 	(junction
+		(at 220.98 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "025d8e42-f298-4d25-923b-c7bd6fad6d47")
+	)
+	(junction
 		(at 336.55 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10532,12 +10538,6 @@
 		(uuid "0e31dc67-2ae4-4ca3-b9ad-ba12289ac20e")
 	)
 	(junction
-		(at 251.46 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f492171-4c24-4446-afb0-78bb8bc621ca")
-	)
-	(junction
 		(at 22.86 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10560,6 +10560,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1838008b-9608-4e10-8c62-24be6d067a58")
+	)
+	(junction
+		(at 251.46 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18be76bf-3c53-4175-9b39-9865f3fc7dfc")
 	)
 	(junction
 		(at 278.13 53.34)
@@ -10616,12 +10622,6 @@
 		(uuid "2d221a76-d996-4f47-b815-0bcb5a5d99d0")
 	)
 	(junction
-		(at 220.98 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d5fb5e2-0729-4d25-959a-18fd1db7a61c")
-	)
-	(junction
 		(at 325.12 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10644,12 +10644,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b538400-4f26-4b4f-9de3-28134a2d5d93")
-	)
-	(junction
-		(at 213.36 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40aad519-4052-4869-80f3-ba0a12d3af79")
 	)
 	(junction
 		(at 90.17 96.52)
@@ -10742,12 +10736,6 @@
 		(uuid "711b4920-1238-4b32-9ac4-84fb282bc2c6")
 	)
 	(junction
-		(at 259.08 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72421a9d-874a-4b8d-b9d8-8dbde66d9d99")
-	)
-	(junction
 		(at 368.3 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10820,6 +10808,12 @@
 		(uuid "911626e4-3f9f-45d9-8adb-5faed70e0e17")
 	)
 	(junction
+		(at 213.36 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "911fd292-5022-4c4e-a78d-bab834a7cc54")
+	)
+	(junction
 		(at 50.8 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10836,6 +10830,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b578a08-565f-4e9a-bf1b-e31f019ed176")
+	)
+	(junction
+		(at 259.08 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a67f975d-2a72-4b90-8fd3-ae233bbc2df8")
 	)
 	(junction
 		(at 105.41 104.14)
@@ -11238,6 +11238,16 @@
 			(type default)
 		)
 		(uuid "0a436605-e5ee-4631-a7ac-f3602d5269e1")
+	)
+	(wire
+		(pts
+			(xy 152.4 266.7) (xy 162.56 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab9f34c-5a92-450e-ab0a-909f412530f2")
 	)
 	(wire
 		(pts
@@ -13651,16 +13661,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 266.7) (xy 160.02 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b26aae6e-6492-4466-b6a0-45d9e012dac3")
-	)
-	(wire
-		(pts
 			(xy 118.11 119.38) (xy 125.73 119.38)
 		)
 		(stroke
@@ -14171,16 +14171,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 269.24) (xy 162.56 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd7e1c8c-b53b-4ba5-84e1-8d28f0cb3bfe")
-	)
-	(wire
-		(pts
 			(xy 243.84 180.34) (xy 246.38 180.34)
 		)
 		(stroke
@@ -14258,6 +14248,16 @@
 			(type default)
 		)
 		(uuid "e09e2ec2-046f-4a26-a4d8-515212450924")
+	)
+	(wire
+		(pts
+			(xy 152.4 269.24) (xy 162.56 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0beb7be-2c72-4c87-8121-3c8b3535d444")
 	)
 	(wire
 		(pts
@@ -16754,73 +16754,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 217.17 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f796139-da3c-4b83-82c0-7a2c8e51f18a")
-		(property "Reference" "R17"
-			(at 216.916 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 217.17 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 217.17 61.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 217.17 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b0eec92-ab4f-46aa-bfe1-13cec4eabbf5")
-		)
-		(pin "2"
-			(uuid "49264381-6c37-4c38-8df2-9e98c0328c50")
-		)
-		(instances
-			(project "OshEasyMini"
-				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 361.95 172.72 0)
 		(unit 1)
@@ -17887,7 +17820,7 @@
 				)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "10k"
 			(at 185.42 49.53 90)
 			(effects
 				(font
@@ -18029,7 +17962,7 @@
 				)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "27k"
 			(at 240.03 57.15 90)
 			(effects
 				(font
@@ -18074,6 +18007,73 @@
 			(project "OshEasyMini"
 				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 255.27 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23967d47-5190-4bc5-b3c5-38462879f4f1")
+		(property "Reference" "R5"
+			(at 255.524 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 255.27 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 255.27 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 255.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4036f406-024c-4cc4-bafb-d86a0e3499cb")
+		)
+		(pin "2"
+			(uuid "29f8a750-d9cd-46d0-bd3e-110e122ea064")
+		)
+		(instances
+			(project "OshEasyMini"
+				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -20228,73 +20228,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 156.21 269.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48478177-1b66-4a91-9dac-153ea07189b7")
-		(property "Reference" "R58"
-			(at 156.21 271.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 156.21 269.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 156.21 271.018 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "939ad22f-af19-413e-b275-3464c94ec11f")
-		)
-		(pin "2"
-			(uuid "db1312d8-aefc-49b9-b082-3eba1fc3fbba")
-		)
-		(instances
-			(project "OshEasyMini"
-				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
-					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 388.62 109.22 180)
 		(unit 1)
@@ -21356,73 +21289,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 156.21 266.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a1600bb-8441-460c-b080-29bde5fab9b5")
-		(property "Reference" "R57"
-			(at 156.21 264.414 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 156.21 266.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 156.21 268.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "063b4ccc-135f-49be-bece-75916b255f2e")
-		)
-		(pin "2"
-			(uuid "5fdd4a23-0c1d-4e0f-a963-b4b2aa1ddc4c")
-		)
-		(instances
-			(project "OshEasyMini"
-				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 60.96 45.72 0)
 		(unit 1)
@@ -21756,6 +21622,73 @@
 			(project "OshEasyMini"
 				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e782cf4-4efe-4a97-b5b2-5df8811e76ca")
+		(property "Reference" "R4"
+			(at 217.424 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 217.17 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 217.17 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74163670-5b1a-4655-81ae-05127bbd7efc")
+		)
+		(pin "2"
+			(uuid "b4b04f8d-64aa-4b99-88ee-f7cd874b14cf")
+		)
+		(instances
+			(project "OshEasyMini"
+				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -23827,7 +23760,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "5.6k"
 			(at 185.42 41.91 90)
 			(effects
 				(font
@@ -28363,73 +28296,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 137.16 214.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca1adf51-2323-4520-8c2d-794fef9843c4")
-		(property "Reference" "R11"
-			(at 139.7 214.884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "56k"
-			(at 137.16 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 138.938 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c3c5d22-f8ed-478f-9bd2-b5d839eedf93")
-		)
-		(pin "2"
-			(uuid "02dea719-9c8a-4cb8-ac76-2eb89de87bcc")
-		)
-		(instances
-			(project "OshEasyMini"
-				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74LVC1G80")
 		(at 90.17 109.22 0)
 		(unit 1)
@@ -28853,73 +28719,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 255.27 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1ca04ab-eefa-481c-a326-a51e58c2050c")
-		(property "Reference" "R20"
-			(at 255.016 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 255.27 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 255.27 61.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 255.27 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d67e5dd-0c1f-4822-9e84-822cd838734a")
-		)
-		(pin "2"
-			(uuid "c87e98c8-1eae-437a-b8ad-dc01cb7fe8b4")
-		)
-		(instances
-			(project "OshEasyMini"
-				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 147.32 41.91 180)
 		(unit 1)
@@ -29120,6 +28919,73 @@
 			(project "OshEasyMini"
 				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
 					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 214.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d30786c8-c136-469e-bec2-e5465bbab600")
+		(property "Reference" "R21"
+			(at 139.7 214.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "56k"
+			(at 137.16 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 138.938 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2a14623-71d2-4cf7-bb04-75d3f0eb05e8")
+		)
+		(pin "2"
+			(uuid "5b54bcf1-0a0e-4213-8719-f8c85b9fbff4")
+		)
+		(instances
+			(project "OshEasyMini"
+				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -31542,7 +31408,7 @@
 				)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "27k"
 			(at 278.13 57.15 90)
 			(effects
 				(font
