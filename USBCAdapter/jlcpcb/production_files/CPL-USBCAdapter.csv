@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_G-Switch_GT-USB-7010ASV,58.706461,-45.099823,180.0,top
+J4,Conn_01x04_MountingPin,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,65.637002,-54.506186,0.0,top
+R1,5.1k,R_0402_1005Metric,60.1,-49.7,-90.0,top
+R2,5.1k,R_0402_1005Metric,57.0,-49.7,-90.0,top

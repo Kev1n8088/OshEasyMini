@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "dd7a172f-a780-496c-a5d6-72309e0b3597")
 	(paper "A3")
+	(title_block
+		(title "MetrumITX")
+		(date "2025-12-19")
+		(rev "v1.0")
+		(company "Leviathan Flight Systems")
+	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G80"
 			(pin_names
@@ -11123,7 +11129,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 187.96) (xy 43.18 187.96)
+			(xy 43.18 187.96) (xy 49.53 187.96)
 		)
 		(stroke
 			(width 0)
@@ -11203,13 +11209,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 182.88) (xy 50.8 182.88)
+			(xy 43.18 182.88) (xy 49.53 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "174fba8e-69a9-4424-a4c2-d972fb487420")
+	)
+	(wire
+		(pts
+			(xy 72.39 182.88) (xy 86.36 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1887b655-13b5-4cab-b05f-d6102bda0d5d")
 	)
 	(wire
 		(pts
@@ -12033,16 +12049,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 182.88) (xy 87.63 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5571bc49-bd43-4f59-9be7-97cfc7a42cb7")
-	)
-	(wire
-		(pts
 			(xy 120.65 45.72) (xy 133.35 45.72)
 		)
 		(stroke
@@ -12563,16 +12569,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 187.96) (xy 87.63 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e1caa4f-297f-4233-b69e-bf4850a3f5eb")
-	)
-	(wire
-		(pts
 			(xy 368.3 88.9) (xy 368.3 91.44)
 		)
 		(stroke
@@ -12910,16 +12906,6 @@
 			(type default)
 		)
 		(uuid "97c8019f-5808-4861-9907-b26538badb5f")
-	)
-	(wire
-		(pts
-			(xy 58.42 182.88) (xy 62.23 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9905528c-4d1f-4a12-bae6-9b35c9433798")
 	)
 	(wire
 		(pts
@@ -13963,6 +13949,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 187.96) (xy 85.09 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ced9fd-34ed-4938-9fe9-ca6ccc011eb8")
+	)
+	(wire
+		(pts
 			(xy 53.34 43.18) (xy 48.26 43.18)
 		)
 		(stroke
@@ -14023,7 +14019,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 185.42) (xy 83.82 185.42)
+			(xy 64.77 185.42) (xy 83.82 185.42)
 		)
 		(stroke
 			(width 0)
@@ -14193,7 +14189,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 185.42) (xy 48.26 185.42)
+			(xy 49.53 185.42) (xy 48.26 185.42)
 		)
 		(stroke
 			(width 0)
@@ -14260,16 +14256,6 @@
 			(type default)
 		)
 		(uuid "fcf2fd00-b872-43e7-80dc-c5c37aabbba6")
-	)
-	(wire
-		(pts
-			(xy 58.42 187.96) (xy 62.23 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcf80e56-31a3-4553-9d86-3f979ff93e40")
 	)
 	(wire
 		(pts
@@ -16114,7 +16100,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:WE-TVS-82400102")
-		(at 69.85 185.42 0)
+		(at 57.15 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16122,7 +16108,7 @@
 		(dnp no)
 		(uuid "0d31fcfd-1c48-4b31-963e-9b10a1757fb2")
 		(property "Reference" "U2"
-			(at 70.866 178.562 0)
+			(at 58.166 178.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16130,7 +16116,7 @@
 			)
 		)
 		(property "Value" "WE-TVS-82400102"
-			(at 71.374 180.34 0)
+			(at 58.674 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16138,7 +16124,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 69.85 190.5 0)
+			(at 57.15 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16147,7 +16133,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/82400102.pdf"
-			(at 69.85 191.77 0)
+			(at 57.15 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16156,7 +16142,7 @@
 			)
 		)
 		(property "Description" "Low Capacitance TVS Diode Array, 2 Channels, SOT-23-6"
-			(at 69.85 185.42 0)
+			(at 57.15 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18726,7 +18712,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 182.88 90)
+		(at 68.58 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18734,15 +18720,15 @@
 		(dnp no)
 		(uuid "35b99e37-0128-46bc-bda6-1ffbc3b38db5")
 		(property "Reference" "R9"
-			(at 54.356 185.42 90)
+			(at 68.326 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22"
-			(at 54.61 182.88 90)
+		(property "Value" "33"
+			(at 68.58 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18750,7 +18736,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 54.61 184.658 90)
+			(at 68.58 184.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18759,7 +18745,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 182.88 0)
+			(at 68.58 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18768,7 +18754,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 182.88 0)
+			(at 68.58 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21493,7 +21479,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 187.96 90)
+		(at 68.58 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21501,15 +21487,15 @@
 		(dnp no)
 		(uuid "62c7b8f0-4c29-4c1c-a1cd-353c0dd2e6f5")
 		(property "Reference" "R1"
-			(at 54.356 190.5 90)
+			(at 68.326 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22"
-			(at 54.61 187.96 90)
+		(property "Value" "33"
+			(at 68.58 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21517,7 +21503,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 54.61 189.738 90)
+			(at 68.58 189.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21526,7 +21512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 187.96 0)
+			(at 68.58 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21535,7 +21521,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 187.96 0)
+			(at 68.58 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
