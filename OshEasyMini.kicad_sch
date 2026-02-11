@@ -9,6 +9,7 @@
 		(date "2025-12-19")
 		(rev "v1.0")
 		(company "Leviathan Flight Systems")
+		(comment 1 "Copyright 2025 by Bdale Garbee")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G80"
