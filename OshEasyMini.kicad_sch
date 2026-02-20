@@ -7,7 +7,7 @@
 	(title_block
 		(title "MetrumITX")
 		(date "2025-12-19")
-		(rev "v1.0")
+		(rev "v1.1")
 		(company "Leviathan Flight Systems")
 		(comment 1 "Copyright 2025 by Bdale Garbee")
 	)
@@ -14518,6 +14518,16 @@
 		)
 		(uuid "2e971f71-b1ef-4cb1-9195-5feaa2aa97c6")
 	)
+	(label "TX1"
+		(at 142.24 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f09a7b4-7313-4906-84f3-d10207e87b72")
+	)
 	(label "SCK5"
 		(at 316.23 96.52 0)
 		(effects
@@ -14638,16 +14648,6 @@
 		)
 		(uuid "512a36ea-9012-4106-ad5a-ec061498236e")
 	)
-	(label "TX1"
-		(at 142.24 233.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52f5801c-ffba-40b9-9b7f-6e924f2f511c")
-	)
 	(label "FIRE_A"
 		(at 265.43 236.22 0)
 		(effects
@@ -14718,6 +14718,16 @@
 		)
 		(uuid "60a20a16-39e6-49a3-b307-14f4300c6640")
 	)
+	(label "RX1"
+		(at 142.24 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60dc05b8-d6fc-479f-86c3-bde9ca1ebe52")
+	)
 	(label "PH1"
 		(at 262.89 226.06 0)
 		(effects
@@ -14747,16 +14757,6 @@
 			(justify left bottom)
 		)
 		(uuid "664ad856-1661-474f-8c2c-298ce9fd7f3e")
-	)
-	(label "RX1"
-		(at 142.24 236.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66b1eb9b-b470-4c8b-806a-8c60f5047398")
 	)
 	(label "USB_D+"
 		(at 266.7 251.46 0)
@@ -18434,72 +18434,6 @@
 			(project "OshEasyMini"
 				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
 					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fe4d81c-c1e0-41c1-b4ec-3e0941b431b0")
-		(property "Reference" "#PWR016"
-			(at 158.75 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3265916c-54ad-4610-8d0e-73cd3bc4916a")
-		)
-		(instances
-			(project "OshEasyMini"
-				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -25504,72 +25438,6 @@
 			(project "OshEasyMini"
 				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 181.61 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7035312-bf96-410d-9b9e-511fcec9b61e")
-		(property "Reference" "#PWR028"
-			(at 181.61 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ccd80e3-9db8-4145-a7cb-100d70a92900")
-		)
-		(instances
-			(project "OshEasyMini"
-				(path "/dd7a172f-a780-496c-a5d6-72309e0b3597"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
